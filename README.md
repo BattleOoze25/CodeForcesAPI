@@ -1,14 +1,11 @@
-# CfApi
 
-Deta :
+
+##Deta :
 https://5u3m9w.deta.dev/api/get-user-info/battleooze
 
-# CodeForces API
 
-This project is used to find the entire information about any user just by calling APIs.
-It is also used to fetch the entire description of the rating changes of an user during a particular contest.
-
-
+# First MicroTask
+#### It is an API used to find the entire information about any user on CodeForces. It can also be used to fetch the entire description of the rating changes of an user during a particular contest.
 ## API Reference
 
 #### Get item
@@ -39,7 +36,29 @@ Takes the user id and returns a list of User objects for requested handle.
 
 Takes the user id and returns a list of RatingChange objects for requested user.
 
-## Authors
+### Installation
+
+```bash
+  git clone https://github.com/BattleOoze25/CodeForcesAPI
+```
+### Navigation
+```bash
+  cd CodeForcesAPI
+```
+
+### Installation
+
+```bash
+  npm i
+```
+
+
+### Run Server
+
+```bash
+  npm start
+```
+## Author
 
 - [@BattleOoze25](https://www.github.com/BattleOoze25)
 
